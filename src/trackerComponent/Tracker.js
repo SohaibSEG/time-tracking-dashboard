@@ -8,7 +8,7 @@ function Tracker(props){
             <main className="tracker-body">
                 <div className="tracker-title">
                     <p>{props.title}</p>
-                    <img src="/images/icon-ellipsis.svg"></img>
+                    <img src={"./images/icon-ellipsis.svg"}></img>
                 </div>
                 <p className="tracker-time">{props.time}hrs</p>
                 <p className="tracker-prev-frame">{`Last ${props.frame} - ${props.prev}`}hrs</p>

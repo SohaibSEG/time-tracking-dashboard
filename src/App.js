@@ -30,7 +30,7 @@ function App() {
           frame = {f}
           first_name="Jeremy"
           last_name="Robson"
-          profile_img="/images/image-jeremy.png"
+          profile_img={"./images/image-jeremy.png"}
           handler = {setFrame}
         ></SideBar>
         {data.map((e,i) => {
@@ -39,7 +39,7 @@ function App() {
             <Tracker
               key={i}
               className={clsName}
-              icon_src={`/images/icon-${clsName}.svg`}
+              icon_src={`./images/icon-${clsName}.svg`}
               title={e.title}
               time={e.timeframes[frames[f].key].current}
               frame={frames[f].frame}
