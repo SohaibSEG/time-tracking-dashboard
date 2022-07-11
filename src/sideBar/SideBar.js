@@ -1,5 +1,4 @@
 import "./SideBar.css";
-
 function SideBar(props) {
   const frame = props.frame;
   return (
